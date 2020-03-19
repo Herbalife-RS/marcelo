@@ -1,0 +1,102 @@
+
+html, body{
+	padding:0;
+	margin:0;
+	
+}
+
+.fa:hover {
+  opacity: 0.7;
+  width: 35px;
+  height: 35px;
+  transition:.5s;
+}
+
+.fa {
+  padding: 20px;
+  margin-right:50px;
+  margin-left:50px;
+  margin-bottom:50px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:white;
+  background-color:#414141;
+  
+  transition:.5s;
+}
+
+
+#imgDiv{
+	text-align:-webkit-center;
+	
+}
+
+#imgDiv img{
+	margin-top:50px;
+	margin-bottom:50px;
+	
+}
+
+#whoWeAre{
+	display: -webkit-inline-box;
+	background-color:#eeeeee;
+	border-radius:150px;
+	width:100%;
+}
+#whoWeAre h1{
+	font-family: 'Oswald', sans-serif;
+	margin: 5px;
+	
+}
+#whoWeAre p{
+	margin: 5px;
+	color:#555555;
+	font-size:20px;
+	width: 95%;
+}
+
+#whoWeAre img{
+	width:150px;
+	border-radius: 150px;
+	
+	
+}
+#marceloETais, #mediaLinks{
+	display:block;
+}
+#join{
+		text-align:-webkit-center;
+
+}
+#join button{
+	background-color:#00dd00;
+	border:none;
+	border-radius:50px;
+	color:white;
+	width:250px;
+	height:50px;
+	font-size:20px;
+	cursor:pointer;
+	
+}
+#results div{
+	display:inline-box;
+}
+#results img{
+	width: 200px;
+	border-radius:50px;
+}
+#mediaLinks, #results{
+	font-family: 'Oswald', sans-serif;
+	color:#555555;
+	text-align:-webkit-center;
+}
+#ourWork{
+	text-align:-webkit-center;
+	margin-bottom:150px;
+}
+
