@@ -159,7 +159,7 @@ html, body{
 .personDesc{
 	display:block;
 	text-align: start;
-	width: 70%;
+	width: 50%;
 
 }
 
@@ -273,6 +273,13 @@ html, body{
 	width: 80%;
 	text-align: start;
     justify-content: start;
+}
+.grayFC{
+	background-color:#e5e5e5;
+	border-radius:50px;
+	width: 80%;
+	text-align: center;
+    justify-content: center;
 }
 #ourWork p{
 	width:100%;
