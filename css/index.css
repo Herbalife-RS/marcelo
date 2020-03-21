@@ -67,25 +67,11 @@ html, body{
 
 #whoWeAre{
 	margin-top:25px;
-	display: -webkit-inline-box;
+	/*display: -webkit-inline-box;*/
 	width:100%;
 	text-align-last: center;
 }
-#whoWeAre #wwADiv h1{
-	font-family: 'Oswald', sans-serif;
-	margin: 5px;
-	color:#aaaaaa;
-	text-align: start;
-	width: 70%;
-	
-}
 
-#whoWeAre  #wwADiv p{
-	margin: 5px;
-	color:#555555;
-	font-size:20px;
-	width: 70%;
-}
 
 #whoWeAre #wwADiv img{
 	width:150px;
@@ -97,8 +83,11 @@ html, body{
 	background-color:#eeeeee;
 	border-radius:150px;
 	display: -webkit-inline-box;
-	width:80%;
-	    box-shadow: 20px 18px 20px 4px #0000003d;
+	width:90%;
+	box-shadow: 20px 18px 20px 4px #0000003d;
+}
+#wwAFather{
+	justify-content:center;
 }
 #marceloETais, #mediaLinks{
 	font-size:16px;
@@ -328,6 +317,22 @@ html, body{
 #ending{
 	text-align:-webkit-center;
 }
+#whoWeAre  #wwADiv h1{
+		font-family: 'Oswald', sans-serif;
+		margin: 5px;
+		color:#aaaaaa;
+		text-align: start;
+
+		width: 80%;
+		text-align-last: center;
+	}
+	#whoWeAre  #wwADiv p{
+		color: #555555;
+		font-size: 18px;
+		width: 75%;
+		margin: 0;
+		text-align-last: center;
+	}
 @media screen and (min-width: 850px){
 	#fiveDaysChallenge img{
 		width:660px;
@@ -414,6 +419,7 @@ h6{
 #inputDiv{
 	width:80%;
 }
+
 @media screen and (max-width: 650px){
 	#whoWeAre{
 		margin-bottom:20px;
