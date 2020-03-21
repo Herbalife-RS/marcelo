@@ -93,6 +93,7 @@ html, body{
 	border-radius:150px;
 	display: -webkit-inline-box;
 	width:80%;
+	    box-shadow: 20px 18px 20px 4px #0000003d;
 }
 #marceloETais, #mediaLinks{
 	font-size:16px;
@@ -262,6 +263,7 @@ html, body{
 	justify-content: center;
 	margin-top:15px;
 	margin-bottom:15px;
+	overflow: hidden;
 }
 #mediaLinks,#howItWorks,#fiveDaysChallenge,#whatIsTheFiveDaysChallenge{
 	width:100%;
@@ -283,7 +285,8 @@ html, body{
 	
 }
 .bigP{
-	font-size:20px;
+	font-size: 20px;
+    width: 80%;
 }
 #ourWork img{
 	width:175px;
@@ -406,9 +409,14 @@ h6{
 		color:#555555;
 		font-size:20px;
 		width: 50%;
+	}
+		
+	.nameInverted{
+		width: 80%;
+	}
 }
 
-}
+
 @media screen and (max-width: 525px){
 	.resultsContainer img, .foodContainer img{
 		width: 100px;
@@ -493,7 +501,9 @@ h6{
   transition:.5s;
 }
 	
-	
+	.nameInverted{
+		width: 80%;
+	}
 	
 }
 
