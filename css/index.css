@@ -355,8 +355,9 @@ h6{
 }
 #iWantToJoin input{
 	border-radius:10px;
-	width:80%;
+	width: 100%;
 	height:30px;
+	text-align:-webkit-center;
 	
 }
 
@@ -379,6 +380,7 @@ h6{
 	cursor:pointer;
 	margin-bottom:50px;
 	transition:.5s;
+	width: 100%;
 }
 #iWantToJoin div{
 	opacity:1;
@@ -388,13 +390,24 @@ h6{
 }
 #iWantToJoin div div{
 	display: grid;
+	grid-template-columns: max-content;
     line-height: 0;
-    width: 80%;
+    width: 90%;
 	background-color:white;
 	border-radius:25px;
 	font-family: 'Oswald', sans-serif;
 	color:#555555;
 	font-size:20px;
+	justify-content: center;
+}
+
+#iWantToJoin div div p{
+	
+	text-align:-webkit-center;
+	white-space:normal
+}
+#inputDiv{
+	width:80%;
 }
 @media screen and (max-width: 650px){
 	#whoWeAre{
