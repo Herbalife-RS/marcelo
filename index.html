@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Herbalife | Marcelo</title>
+		<title>Herbalife | Marcelo & Tais</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,52 +10,212 @@
 		<link rel="shortcut icon" href="imgs/favicon.png"></link>
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script src="js/index.js"></script>
+		
 	</head>
 	
 	<body>
+		<div id="iWantToJoin">
+			<div>
+				<div>
+					<p>Legal!<br></p>Vamos entrar em contato com você para realizar sua incrição.</p>
+					<p>Como você se chama?</p>
+					<input id="iWantToJoinInput" type="text">
+					<button id="submitBTN" disabled>Enviar</button>
+				</div>
+			</div>
+		</div>
+		<div id="logo">
+			<img onclick="location.reload()" src="imgs/logos/logo.png">
+		</div>
 		<div>
-			<div id="imgDiv">
-				<img src="imgs/herbalife.png">
+			<div id="fiveDaysChallenge">
+				<img src="imgs/mainImg.png">
+				<div id="join">
+					<button id="joinBTN">Topo o Desafio!</button>
+				</div>
 			</div>
-			<div id="ourWork">
-				<p>Trabalhamos como...</p>
+			<div id="whatIsTheFiveDaysChallenge">
+				<h1>No <b>Desafio 5 Dias:</b></h1>
 			</div>
+			<div id="checks">
+				<div id="0">
+					<img src="imgs/extras/check.png">
+					<h1>Suplementos alimentares Herbalife</h1>
+				</div>
+				<div class="gridGray">
+					<img src="imgs/extras/check.png">
+					<h1>Grupo de acompanhamento profissional</h1>
+				</div>
+				<div id="0">
+					<img src="imgs/extras/check.png">
+					<h1>Receitas Fit</h1>
+				</div>
+				<div class="gridGray">
+					<img src="imgs/extras/check.png">
+					<h1>Dicas para pratos e lanches + saudáveis</h1>
+				</div>
+				<div id="0">
+					<img src="imgs/extras/check.png">
+					<h1>Motivação</h1>
+				</div>
+				<div class="gridGray">
+					<img src="imgs/extras/check.png">
+					<h1>Suporte para qualquer dúvida</h1>
+				</div>
+			</div>
+			
 			<div>
 				<div id="results">
-					<h1>Resultados</h1>
-					<div>
-						<img src="imgs/1.jpeg">
-						<p>Nome, 62 anos.</p>
+					<h1>Os Resultados:</h1>
+					<center class="resultsCenter">
+						<div class="resultsContainer">
+							<img src="imgs/beforeAfters/1Before.png">
+							<img src="imgs/beforeAfters/1After.png">
+							<div class="personDesc">
+								<h2 class="name">Márcia, <span class="years">XX anos.</span></h2>
+								<p>Em apenas 30 dias teve esse resultado incrível em seu corpo.</p>
+							</div>
+						</div>
+					</center>
+					<center class="resultsCenter grayRC">
+						<div class="resultsContainer">
+							<div class="personDescInverted">
+								<h2 class="nameInverted">Ângela, <span class="years">XX anos.</span></h2>
+								<p>Educadora física, não conseguia controlar o peso. Eliminou 5,4Kg!</p>
+							</div>
+							<img src="imgs/beforeAfters/2Before.png">
+							<img src="imgs/beforeAfters/2After.png">
+						</div>
+					</center>
+					<center class="resultsCenter">
+						<div class="resultsContainer">
+							<img src="imgs/beforeAfters/5Before.png">
+							<img src="imgs/beforeAfters/5After.png">
+							<div class="personDesc">
+								<h2 class="name">Tais, <span class="years">XX anos.</span></h2>
+								<p>Eliminou mais de 3,4% de sua gordura corporal</p>
+							</div>
+						</div>
+					</center>
+					<center class="resultsCenter grayRC">
+						<div class="resultsContainer">
+							<div class="personDescInverted">
+								<h2 class="nameInverted">Nome, <span class="years">XX anos.</span></h2>
+								<p>xxxxxxxxxxxxxxxxxx</p>
+							</div>
+							<img src="imgs/beforeAfters/3Before.png">
+							<img src="imgs/beforeAfters/3After.png">
+						</div>
+					</center>
+					<center class="resultsCenter last">
+						<img src="imgs/extras/more.png"> 
+					</center>
+					<div class="morePeopleInfo">
+						<h1>E mais <span class="herbaThings">centenas</span> de pessoas com resultados incríveis do nosso grupo e clientes de várias cidades do Brasil.</h1>
 					</div>
-					<div>
-						<img src="imgs/3.jpeg">
-						<p>Nome, 50 anos.</p>
+				</div>
+				<!-- SEPARATOR -->
+				<div class="separator">
+				</div>
+				<!-- SEPARATOR -->
+				<div class="morePeopleInfo">
+					<h1>Você sabia que fazemos alimentos que <span class="herbaThings">ajudam à ter esses resultados?</span><br><br>Ninguém acredita, <span class="herbaThings">até provarem conosco.</span></h1>
+				</div>
+				<div id="foods">
+					<center class="foodCenter">
+						<div class="foodContainer">
+							<img src="imgs/food/pudingCake.png">
+							<div class="foodDesc">
+								<h2 class="foodName">Bolo de pudim</h2>
+								<p>Bolo de pudim com suco que seca barriga!</p>
+							</div>
+						</div>
+					</center>
+					<center class="foodCenter grayRC">
+						<div class="foodContainer">
+							<div class="foodDesc space">
+								<h2 class="foodName">Bolo no pote</h2>
+								<p>Lanche saudável e protéico!</p>
+							</div>
+							<img src="imgs/food/potCake.png">
+						</div>
+					</center>
+					<center class="foodCenter">
+						<div class="foodContainer">
+							<img src="imgs/food/nutrevBread.png">
+							<div class="foodDesc">
+								<h2 class="foodName">Torrada de Nutrev</h2>
+								<p>/*********/</p>
+							</div>
+						</div>
+					</center>
+					<center class="foodCenter grayRC">
+						<div class="foodContainer">
+							<div class="foodDesc space">
+								<h2 class="foodName">Xis Fit com Nutrev</h2>
+								<p>Lanche saudável e protéico!</p>
+							</div>
+							<img src="imgs/food/nutrevCheese.png">
+						</div>
+					</center>
+					<center class="resultsCenter last">
+						<img src="imgs/extras/moreFood.png"> 
+					</center>
+					<div class="morePeopleInfo">
+						<h1>E mais <span class="herbaThings">diversos pratos e receitas saudáveis</span> que os <span class="herbaThings">ensinamos fazer</span> com nossos produtos que melhoram ainda mais seus resultados de bem estar e controle de peso.</h1>
 					</div>
+				</div>
+				<!-- SEPARATOR -->
+				<div class="separator">
+				</div>
+				<!-- SEPARATOR -->
+				<div id="join">
+					<button>Quero participar!</button>
+				</div>
+
+				<div id="howItWorks">
+					<h1>Como participar:</h1>
+					<div id="ourWork">
+						<img src="imgs/extras/box.png">
+						<p>Após fazer sua incrição para participar do nosso grupo, você receberá esta caixinha com <b>4 refeições</b> e <b>1 lanche</b> dos produtos <span class="herbaThings">Herbalife</span>.</p>	
+					</div>
+					<p class="bigP">Estes produtos <span class="herbaThings">eliminam gorduras da barriga</span> e <span class="herbaThings">desincha o corpo</span>.</p>	
+					<p class="bigP">Outras refeições serão <span class="herbaThings">dicas personalizadas</span>.</p>	
+					<p class="bigP">Tudo por apenas <span class="herbaThings">R$55,00</span>.</p>	
 					
 				</div>
-				
+
 			</div>
 		<div id="join">
-			<button>Quero participar</button>
+			<button>Quero participar!</button>
 		</div>
+		<!-- SEPARATOR -->
+			<div class="separator">
+			</div>
+		<!-- SEPARATOR -->
 		</div>
 		<footer>
-			<div id="whoWeAre">
-				<div>
-					<img src="https://scontent.fpoa33-1.fna.fbcdn.net/v/t1.0-9/s960x960/84992441_2542060889238183_455728182230777856_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=xbUdl6abAtIAX8JzcN8&_nc_ht=scontent.fpoa33-1.fna&_nc_tp=7&oh=921b06fd4e57e0ff9d43f5387283fc42&oe=5E9A55AB">
+				<div id="whoWeAre">
+					<div id="wwADiv">
+						<div>
+							<img src="https://scontent.fpoa33-1.fna.fbcdn.net/v/t1.0-9/s960x960/84992441_2542060889238183_455728182230777856_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=xbUdl6abAtIAX8JzcN8&_nc_ht=scontent.fpoa33-1.fna&_nc_tp=7&oh=921b06fd4e57e0ff9d43f5387283fc42&oe=5E9A55AB">
+						</div>
+						<div id="marceloETais">
+							<h1>Marcelo & Tais Jacobsen</h1>
+							<p><i>'Somos pessoas com a missão de mudar a vida das pessoas assim como a nossa foi mudada graças a DEUS.'</i></p>
+						</div>
+					</div>
 				</div>
-				<div id="marceloETais">
-					<h1>Marcelo & Tais Jacobsen</h1>
-					<p><i>'Somos pessoas com a missão de mudar a vida das pessoas assim como a nossa foi mudada graças a DEUS.'</i></p>
+			
+				<div id="mediaLinks">
+					<h1>Siga-nos nas redes sociais!</h1>
+					<a href="https://www.facebook.com/marcelo.dettmannjacobsen" class="fa fa-facebook"></a>
+					<a href="https://www.instagram.com/marcelotaisjacobsen/" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-whatsapp"></a>
 				</div>
-			</div>
-			<div id="mediaLinks">
-				<h1>Siga-nos nas redes sociais!</h1>
-				<a href="https://www.facebook.com/marcelo.dettmannjacobsen" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-instagram"></a>
-				<a href="#" class="fa fa-whatsapp"></a>
-			</div>
+			
+			<h6>Mickael Vargas, 2020. &copy;</h6>
 		</footer>
+		<script src="js/index.js"></script>
 	</body>
 </html>
