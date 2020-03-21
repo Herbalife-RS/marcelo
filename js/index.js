@@ -14,7 +14,7 @@ $('#joinBTN').on('click',function(){
 })
 $('#submitBTN').on('click',function(){
 	message = "Olá, me chamo " + $('#iWantToJoinInput').val() + ". Topo seu Desafio 5 Dias!"
-	url = 'https://api.whatsapp.com/send?phone=5551997189948&text='
+	url = 'https://api.whatsapp.com/send?phone=5551984863327&text='
 
 	location.replace(url + message)
 
