@@ -481,11 +481,16 @@ h6{
 		width:80%;
 		font-size:25px;
 	}
-	#marceloETais, #mediaLinks{
+	#marceloETais{
 		display:block;
 		font-size:8px;
 		margin-bottom:20px;
 
+	}
+	#mediaLinks{
+		display:block;
+		font-size:12px;
+		margin-bottom:20px;
 	}
 	#whoWeAre{
 		margin-bottom:20px;
