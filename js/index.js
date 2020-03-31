@@ -7,8 +7,7 @@ $('#iWantToJoinInput').on('keyup', function(){
 })
 
 
-joinBTN
-$('#joinBTN').on('click',function(){
+$('.joinBTN').on('click',function(){
 	document.getElementById('iWantToJoin').style.display = 'block'
 
 })

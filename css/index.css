@@ -93,12 +93,12 @@ html, body{
 	font-size:16px;
 	display:block;
 }
-#join{
+.join{
 		text-align:-webkit-center;
 
 }
 
-#join button{
+.join button{
 	margin-top:15px;
 	margin-bottom:15px;
 	background-color:#00dd00;
@@ -111,7 +111,7 @@ html, body{
 	cursor:pointer;
 	
 }
-#join button:hover{
+.join button:hover{
 	margin-top:15px;
 	background-color:#00ff00;
 	border:none;
