@@ -428,6 +428,13 @@ h6{
 	width:80%;
 }
 
+@media screen and (min-width: 567px){
+	.last img{
+		width:541px;
+		height:auto;
+	}
+}
+
 @media screen and (max-width: 650px){
 	#whoWeAre{
 		margin-bottom:20px;
