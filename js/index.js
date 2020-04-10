@@ -14,6 +14,7 @@ $('#iWantToJoin').on('blur', function(){
 
 $('.joinBTN').on('click',function(){
 	document.getElementById('iWantToJoin').style.display = 'block'
+	
 	$("#iWantToJoinInput").focus()
 })
 $('#submitBTN').on('click',function(){
