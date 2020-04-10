@@ -12,6 +12,33 @@ $('#iWantToJoinInput').on('keyup', function(){
 	}
 })
 
+observer = new IntersectionObserver(function(entries){
+	if(entrie[0].isIntersectin === true){
+		console.log('visible')
+	}else{
+		console.log('not visible')
+	}
+}, {threshold: [1]})
+
+
+$(document).on('scroll', function(){
+	observer.observe(document.querySelector("#luzeni"))
+})
+
+
+isClosed = true
+$("#incredibleCaseBTN").on('click', function(){
+	
+	if(isClosed){
+		document.getElementById('luzeni').style.height = '858px'
+		$("#incredibleCaseBTN span").text("Fechar")
+	}else{
+		document.getElementById('luzeni').style.height = '0'
+		$("#incredibleCaseBTN span").text("Caso impressionante. Veja!")
+	}
+	
+	isClosed = !isClosed
+})
 
 $('#iWantToJoinInput').on('keydown',function(e){
 	let kc = [16,8,32,13,20]
