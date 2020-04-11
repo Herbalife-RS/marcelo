@@ -30,11 +30,17 @@ isClosed = true
 $("#incredibleCaseBTN").on('click', function(){
 	
 	if(isClosed){
-		document.getElementById('luzeni').style.height = '858px'
+		for (element of document.getElementsByClassName('luzeni')){
+			element.style.height = 'fit-content'
+		}
+		
 		$("#incredibleCaseBTN span").text("Fechar")
 	}else{
-		document.getElementById('luzeni').style.height = '0'
-		$("#incredibleCaseBTN span").text("Caso impressionante. Veja!")
+		for (element of document.getElementsByClassName('luzeni')){
+			element.style.height = '0'
+		}
+		
+		$("#incredibleCaseBTN span").text("Casos impressionantes. Veja!")
 	}
 	
 	isClosed = !isClosed

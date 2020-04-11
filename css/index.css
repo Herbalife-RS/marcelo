@@ -253,34 +253,42 @@ html, body{
 #incredibleCase button span{
 
     padding-top: 3%;
-    padding-right: 10%;
+    padding-right: 5%;
     float: right;
 }
-#luzeniSecondDiv{
+.luzeniSecondDiv{
 	width:100%;
 	padding:20px;
 }
 
-#luzeniSecondDiv h3{
+.luzeniSecondDiv h3{
 	text-align: left;
 	width:90%;
+	transition:.5s;
 }
-#luzeniDiv{
+.luzeniDiv{
 	display: flex;
 	width:100%;
 	padding:25px;
 	text-align:-webkit-center;
 	justify-content: center;
+	transition:.5s;
 }
-#luzeniDiv img{
+.luzeniDiv img{
 	width:25%;
 	height:auto;
 	
 	border-radius:50px;
+	transition:.5s;
 }
-#luzeni{
+.luzeni{
 	overflow:hidden;
 	height:0;
+	border-radius:50px;
+	width: 80%;
+	text-align: center;
+    justify-content: center;
+	transition:.5s;
 }
 
 .resultsContainer img{
