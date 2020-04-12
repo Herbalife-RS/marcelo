@@ -168,21 +168,20 @@ html, body{
 	text-align: start;
 	width: 50%;
 }
-
-.personDesc p, .personDescInverted p{
+.personDescInverted p{
+	margin-left: auto;
+    text-align: start;
+    line-height: 1.1;
+    padding-right: 5%;
+    width: 50%;
+}
+.personDesc p{
 	margin-top: 0;
 	margin-left: 10px;
 	margin-right:0;
 	width: 50%;
 }
 
-.personDescInverted p{
-	margin-left: auto;
-	text-align: end;
-	line-height: 1.1;
-	padding-right: 25%;
-	width: 80%;
-}
 .foodDesc .foodName{
 	font-size: 35px;
     margin-top: 0;
@@ -541,7 +540,21 @@ h6{
 		background-color:#e5e5e5;
 		border-radius:25px;
 	}
-	
+	.personDescInverted p{
+		margin-left: auto;
+		margin-bottom:0;
+		text-align: start;
+		line-height: 1.1;
+		padding-right: 5%;
+		width: 80%;
+}
+	.personDesc p{
+		display:block;
+		text-align: start;
+		width: 80%;
+		margin-bottom:0;
+
+	}
 	#ourWork p{
 	width: 80%;
 	text-align:start;
